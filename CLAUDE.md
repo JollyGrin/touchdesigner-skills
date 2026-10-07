@@ -73,3 +73,12 @@ If all black, check: material type (use Phong not PBR), SOP display/render flags
 - `CLAUDE.md` — this file (project instructions for Claude)
 - `LEARNINGS.md` — detailed technical learnings and patterns
 - `idea_reactor.md` — example scene description (fusion reactor concept)
+
+## Context & memory
+
+- When compacting, always preserve the list of modified files, the task's
+  acceptance criteria, the build/test command, the PR URL, and the
+  `STATUS:` line contract.
+- Auto memory (`~/.claude/projects/<repo>/memory/`) holds Claude-written
+  notes — corrections and confirmed approaches, one lesson per file. Don't
+  save what the repo, its docs, or git history already record.
